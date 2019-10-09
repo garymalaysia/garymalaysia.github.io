@@ -1,13 +1,14 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Document</title>
-    </head>
-    <body>
-        <h1>Test Test</h1>
-        <p>XSS in da HOuse</p>
-        <script>
-            alert("Hello JavaScript!");
-            </script> 
-    </body>
+<!DOCTYPE HTML>
+<html>  
+<body>
+    <script>
+        alert("Hello JavaScript!");
+        </script>
+<form action="welcome.php" method="post">
+Name: <input type="text" name="name"><br>
+E-mail: <input type="text" name="email"><br>
+<input type="submit">
+</form>
+
+</body>
 </html>
